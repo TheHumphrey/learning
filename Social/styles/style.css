@@ -31,7 +31,7 @@ section#phone {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: blue url("../images/frame-iphone.png") no-repeat;
+  background: url("../images/frame-iphone.png") no-repeat;
 }
 
 iframe#screen {
@@ -40,4 +40,23 @@ iframe#screen {
   left: 22px;
   width: 268px;
   height: 471px;
+}
+
+section#social {
+  text-align: right;
+}
+
+section#social img {
+  width: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+  transition: 0.5s;
+}
+
+section#social img:hover {
+  border: 2px solid rgba(255, 255, 255, 0.575);
+  transform: translate(-3px, -3px);
+  transition: 0.5s;
 }
